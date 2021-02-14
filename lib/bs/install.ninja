@@ -1,0 +1,34 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o index.cmi : cp ../bs/src/index.cmi
+o index.cmj : cp ../bs/src/index.cmj
+o index.cmt : cp ../bs/src/index.cmt
+o index.res : cp ../../src/index.res
+o App.cmi : cp ../bs/src/components/App.cmi
+o App.cmj : cp ../bs/src/components/App.cmj
+o App.cmt : cp ../bs/src/components/App.cmt
+o App.res : cp ../../src/components/App.res
+o Form.cmi : cp ../bs/src/components/Form.cmi
+o Form.cmj : cp ../bs/src/components/Form.cmj
+o Form.cmt : cp ../bs/src/components/Form.cmt
+o Form.res : cp ../../src/components/Form.res
+o Home.cmi : cp ../bs/src/components/Home.cmi
+o Home.cmj : cp ../bs/src/components/Home.cmj
+o Home.cmt : cp ../bs/src/components/Home.cmt
+o Home.res : cp ../../src/components/Home.res
+o Menu.cmi : cp ../bs/src/components/Menu.cmi
+o Menu.cmj : cp ../bs/src/components/Menu.cmj
+o Menu.cmt : cp ../bs/src/components/Menu.cmt
+o Menu.res : cp ../../src/components/Menu.res
+o Layout.cmi : cp ../bs/src/components/Layout.cmi
+o Layout.cmj : cp ../bs/src/components/Layout.cmj
+o Layout.cmt : cp ../bs/src/components/Layout.cmt
+o Layout.res : cp ../../src/components/Layout.res
+o External.cmi : cp ../bs/src/components/External.cmi
+o External.cmj : cp ../bs/src/components/External.cmj
+o External.cmt : cp ../bs/src/components/External.cmt
+o External.res : cp ../../src/components/External.res
+build install.stamp : touch index.cmi index.cmj App.cmi App.cmj Form.cmi Form.cmj Home.cmi Home.cmj Menu.cmi Menu.cmj Layout.cmi Layout.cmj External.cmi External.cmj 

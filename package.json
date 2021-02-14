@@ -1,0 +1,30 @@
+{
+  "name": "exploring-rescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rs:build": "bsb -make-world",
+    "rs:clean": "bsb -clean-world",
+    "rs:build:watch": "bsb -make-world -w",
+    "build": "webpack",
+    "build:dev": "webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rescript/react": "^0.10.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.4.2",
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

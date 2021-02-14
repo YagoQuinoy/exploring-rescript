@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 100%;
+  grid-template-areas:
+  "header header"
+  "sidebar content";
+}
+
+.header {
+  grid-area: header;
+  padding: 16px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  padding: 16px;
+}
+
+.content {
+  grid-area: content;
+  padding: 16px;
+}
+
