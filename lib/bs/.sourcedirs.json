@@ -1,1 +1,0 @@
-{ "dirs" : [ "src" , "src/components" , "src/helpers" ] , "pkgs" : [ [ "bs-platform" , "/home/yagoquinoy/Dev/yagoquinoy/exploring-rescript/node_modules/bs-platform" ] , [ "@rescript/react" , "/home/yagoquinoy/Dev/yagoquinoy/exploring-rescript/node_modules/@rescript/react" ] ] , "generated" : [] }
