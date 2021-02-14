@@ -1,5 +1,21 @@
 # Exploring ReScript
 
+## Getting started
+Install dependencies
+
+```bash
+npm i
+```
+
+For executing the project, run this two processes concurrently.
+
+```bash
+npm run rs:build:watch
+npm run build:dev
+```
+
+Those are for rescript -> js compilation and webpack bundling respectively.
+
 ## What is ReScript
 `ReScript` is a review of `Reason` language and `BuckleScript`(`Js` compiler) that brings all the benefits of `OCaml` type system into `Js` environment. It was announced on July 2020.
 
